@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+   <link rel="stylesheet" href="style/kontakt.css"> 
+
+   <style>
+    body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    </style>
+</head>
+<body>
+    <body style="background-image: url('bilder/målning.jpg');">
+        <div id="container">
+        <div class="box-link">
+        <h1>Kontakt</h1>
+        
+        <a>
+            <div class="inline-block"><a href="startsida.html" class="link link2">Hem</a></div>
+            <div class="inline-block"><a href="presentation.html" class="link link2">Om mig</a></div>  
+            <div class="inline-block"><a href="portfolio.html" class="link link2">Målningar</a></div> 
+        </a>
+        </div>
+        <br>
+        <hr color="darkgrey" size="5px">
+    
+        <div class="box-img">
+        <form action="" method="POST">
+
+            <input type="text" id="firstname" name="firstname" placeholder="Förnamn.." required>
+            <br>
+            <input type="text" id="lastname" name="lastname" placeholder="Efternamn.." required>
+            <br>
+            <input type="email" id="email" name="email" placeholder="E-post.."required>
+            <br>
+            
+
+    
+            <textarea name="comment" id="comment" rows="10" placeholder="Skriv din text här..."></textarea>
+    
+            <div class="form-row">
+                <input type="checkbox" name="terms" id="terms" value="terms" required>
+                <label for="">Godkänner du att vi sparar denna information?</label>
+            </div>
+    
+            <input type="submit" value="Skicka">
+        </form>
+        </div>
+</body>
+</html>
